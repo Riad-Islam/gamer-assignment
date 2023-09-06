@@ -1,0 +1,97 @@
+/* Universal Style start*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Universal Style end*/
+
+
+/* Nav bar style start */
+header {
+    color:#FFF;
+    padding: 25px;
+    max-height: 130px;
+}
+
+.nav-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.nav-icon {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon img {
+    width: 86.041px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.nav-icon p {
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 20px;
+    color: black;
+}
+
+.nav-text {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-ancor-tag a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-button {
+    width: 220px;
+    height: 45px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.nav-button p {
+    color: #3C354F;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fa-brands {
+    width: 30px;
+}
+
+/* Nav bar style end */
+
+
+
+/* Responsive Style */
+
+/* style for mobile devices */
+@media screen and (max-width: 576px){
+    .nav-container,.nav-text{
+        flex-direction: column;
+    }
+}
