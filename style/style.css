@@ -11,9 +11,10 @@
 
 /* Nav bar style start */
 header {
-    color:#FFF;
-    padding: 25px;
-    min-height: 130px;
+    color: #FFF;
+    padding: 30px;
+    min-height: 100px;
+    margin-bottom: 0px;
 }
 
 .nav-container {
@@ -85,32 +86,119 @@ header {
 /* Nav bar style end */
 
 
+/* Banner Content Style */
+
+/* play like Goat style start*/
+.banner-content {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    min-height: 200px;
+}
+
+.play-like-goat {
+    max-width: 1300px;
+    margin: 148px auto;
+    min-height: 100px;
+}
+
+.play-like-goat {
+    display: flex;
+}
+
+.play-goat-text {
+    width: 50%;
+    margin: auto 10px;
+}
+
+.play-goat-img {
+    width: 50%;
+}
+
+.play-goat-img img {
+    width: 100%;
+}
+
+.letter-container {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.icon-text {
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.play-goat-text h3 {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.circle {
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+}
+
+.play-like-goat-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.play-goat-text button {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    border-radius: 48px;
+    border: none;
+    font-size: 17px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-weight: 600;
+    background-color: #FF42A5;
+    margin-right: 24px;
+}
+
+
+/* play like Goat style end*/
+
 
 /* Responsive Style */
 
 /* style for mobile or small devices */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
 
     /* Style for nav-bar */
-    .nav-container,.nav-text{
+    .nav-container,
+    .nav-text {
         flex-direction: column;
     }
+
     header {
         padding: 15px;
     }
-    .nav-icon{
+
+    .nav-icon {
         margin-bottom: 50px;
     }
-    .nav-icon,.nav-text{
+
+    .nav-icon,
+    .nav-text {
         width: 100%;
         justify-content: center;
     }
-    .nav-ancor-tag a{
+
+    .nav-ancor-tag a {
         display: flex;
         margin-bottom: 36px;
         justify-content: center;
     }
-    .nav-button{
+
+    .nav-button {
         margin: 0 auto;
     }
 }
@@ -118,13 +206,18 @@ header {
 
 /* Style for tablet and medium devices */
 @media screen and (min-width: 576px) and (max-width:900px) {
-    .nav-icon,.nav-text{
+
+    .nav-icon,
+    .nav-text {
         width: auto;
     }
-    .nav-text{
+
+    .nav-text {
         align-items: center;
     }
-    .nav-text,.nav-button{
+
+    .nav-text,
+    .nav-button {
         margin-left: 20px;
     }
 }
