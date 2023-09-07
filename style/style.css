@@ -13,14 +13,13 @@
 header {
     color:#FFF;
     padding: 25px;
-    max-height: 130px;
+    min-height: 130px;
 }
 
 .nav-container {
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -89,9 +88,43 @@ header {
 
 /* Responsive Style */
 
-/* style for mobile devices */
+/* style for mobile or small devices */
 @media screen and (max-width: 576px){
+
+    /* Style for nav-bar */
     .nav-container,.nav-text{
         flex-direction: column;
+    }
+    header {
+        padding: 15px;
+    }
+    .nav-icon{
+        margin-bottom: 50px;
+    }
+    .nav-icon,.nav-text{
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-ancor-tag a{
+        display: flex;
+        margin-bottom: 36px;
+        justify-content: center;
+    }
+    .nav-button{
+        margin: 0 auto;
+    }
+}
+
+
+/* Style for tablet and medium devices */
+@media screen and (min-width: 576px) and (max-width:900px) {
+    .nav-icon,.nav-text{
+        width: auto;
+    }
+    .nav-text{
+        align-items: center;
+    }
+    .nav-text,.nav-button{
+        margin-left: 20px;
     }
 }
