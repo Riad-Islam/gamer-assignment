@@ -88,7 +88,6 @@ header {
 /* Banner container style starts */
 .banner-container {
     min-height: 200px;
-    margin-top: 0px;
     display: flex;
     background-color: #FFF;
     margin-top: 10px;
@@ -99,7 +98,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     fill: linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%);
-    width: 901px;
+    width: 850px;
     height: 700px;
 }
 
@@ -160,12 +159,83 @@ header {
 }
 
 .text-container {
-    margin-left: 230px;
-    margin-top: 150px;
+    margin-left: 200px;
+    margin-top: 130px;
 }
 
 /* play like Goat style end*/
 
+
+/* We are gamer section start */
+.gamer-container {
+    min-height: 100px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.we-are-gamer {
+    min-height: 100px;
+    max-width: 1400px;
+    margin: 90px auto;
+    display: flex;
+    gap: 40px;
+}
+
+.gamer-img {
+    width: 60%;
+}
+
+.gamer-text {
+    width: 40%;
+}
+
+.gamer-text h4 {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.gamer-text p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.gamer-text .know-more-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gamer-text button {
+    padding: 21px 40px;
+    align-items: flex-start;
+    border: none;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gamer-text h5 {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: right;
+}
+
+/* We are gamer section end */
 
 /* Responsive Style */
 
@@ -263,9 +333,11 @@ header {
         padding: 10px;
         margin-left: 50px;
     }
-    .nav-container{
+
+    .nav-container {
         margin-top: 20px;
     }
+
     .nav-icon p {
         font-size: 2rem;
         margin-left: 10px;
@@ -287,15 +359,18 @@ header {
     }
 
     /* Style for play like goat */
-    .banner-container{
+    .banner-container {
         flex-direction: column;
     }
-    .play-like-goat-text , .play-like-goat-img{
+
+    .play-like-goat-text,
+    .play-like-goat-img {
         width: 100%;
         height: 100%;
         margin-left: 40px;
     }
-    .play-like-goat-img img{
+
+    .play-like-goat-img img {
         width: 80%;
         height: 50%;
         margin-top: 50px;
