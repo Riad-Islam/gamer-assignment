@@ -170,6 +170,8 @@ header {
 .gamer-container {
     min-height: 100px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    /* height: 100%; */
+    display: flex;
 }
 
 .we-are-gamer {
@@ -245,7 +247,9 @@ header {
     /* Style for nav-bar */
     .nav-container,
     .nav-text,
-    .banner-container {
+    .banner-container,
+    .gamer-container,
+    .we-are-gamer{
         flex-direction: column;
     }
 
@@ -323,6 +327,52 @@ header {
     .play-like-goat-text button {
         font-size: 15px;
         padding: 15px 30px;
+    }
+    /* We are gamer section */
+    .gamer-container{
+        background: #FFF;
+    }
+    .we-are-gamer{
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 10px;
+    }
+    .gamer-img, .gamer-text{
+        width: 100%;
+    }
+    .gamer-img img{
+        width: 80%;
+    }
+    .gamer-text p,.gamer-text h4,.gamer-text h5{
+        text-align: center;
+    }
+    .gamer-text .know-more-button {
+        display: flex;
+        justify-content: center;
+    }
+    .gamer-text h4 {
+        margin-top: 20px;
+    }
+    .gamer-img{
+        display: flex;
+        justify-content: center;
+    }
+    .gamer-text h4{
+        font-size: 35px;
+    }
+    .gamer-text p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .gamer-text button {
+        padding: 15px 30px;
+        border-radius: 42px;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .gamer-text h5{
+        font-size: 20px;
     }
 }
 
