@@ -366,14 +366,17 @@ header {
     position: relative;
     display: grid;
 }
-.play-instantly-image1{
+
+.play-instantly-image1 {
     position: relative;
 }
-.play-instantly-image1:first-of-type{
+
+.play-instantly-image1:first-of-type {
     grid-column: 2 /span 2;
     grid-row: 1 / span 2;
 }
-.play-instantly-image1:last-of-type{
+
+.play-instantly-image1:last-of-type {
     grid-column: 1 /span 2;
     grid-row: 2 / span 2;
 }
@@ -586,6 +589,39 @@ header {
         left: 0;
         width: 280px;
         height: 350px;
+    }
+
+    /* Style for play instantly start */
+    .play-instantly-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .play-instantly-text {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .play-instantly-image {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .play-instantly-image1 img {
+        width: 70%;
+    }
+
+    .play-instantly-text h4{
+        margin-right: 70px;
+        font-size: 40px;
+    }
+    .play-instantly-text p{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .play-instantly{
+        margin-top: 0px;
     }
 }
 
