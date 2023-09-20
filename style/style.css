@@ -601,6 +601,10 @@ header {
     .play-instantly-text {
         width: 100%;
         margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .play-instantly-image {
@@ -613,12 +617,15 @@ header {
     }
 
     .play-instantly-text h4{
-        margin-right: 70px;
+        /* margin-right: 70px; */
         font-size: 40px;
+        margin-top: 0px;
+        margin-right: 0px;
     }
     .play-instantly-text p{
         font-size: 15px;
         margin-bottom: 20px;
+        margin-right: 0px;
     }
     .play-instantly{
         margin-top: 0px;
